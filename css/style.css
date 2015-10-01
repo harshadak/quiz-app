@@ -76,6 +76,7 @@ font-family: 'Josefin Slab', serif;
 	font-size: 1.25rem;
 	font-family: 'Josefin Slab', serif;
 	font-weight: 700;
+	letter-spacing: 0.05rem;
 	border: none;
 	border-radius: 0.25rem;
 	color: #7A4715;
@@ -91,7 +92,101 @@ font-family: 'Josefin Slab', serif;
 	cursor: pointer;
 }
 
+/*----------------Quiz section-----------------*/
 
+.quiz-questions h3 {
+	color: #FFD2A6;
+	font-size: 1.25rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	padding-bottom: 0.75rem;
+}
+
+.quiz-questions h2 {
+	color: #F5F1DE;
+	font-size: 1.45rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	padding-bottom: 0.5rem;
+	line-height: 2rem;
+}
+
+.quiz-options { /* Unable to change the radio buttons */
+	width: 50%;
+	color: #FFD2A6;
+	font-size: 1.25rem;
+	line-height: 2rem;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.quiz-options input {
+	margin-right: 1rem;
+}
+
+.quiz-questions #submit-answer {
+	padding: 0.5rem;
+	margin-top: 0.75rem;
+	font-size: 1.1rem;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+	letter-spacing: 0.05rem;
+	border: none;
+	border-radius: 0.25rem;
+	color: #7A4715;
+	background-color: #F5F1DE;
+}
+
+.quiz-questions #submit-answer:focus {
+	outline: none;
+}
+
+.quiz-questions #submit-answer:hover {
+	background-color: #FFD2A6;
+	cursor: pointer;
+}
+
+/*----------------Result section-----------------*/
+
+.result-section h2.congrats {
+	color: #FFD2A6;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+}
+
+.result-section h2#show-score {
+	color: #F5F1DE;
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	padding-bottom: 0.5rem;
+	line-height: 2rem;
+}
+
+.result-section #startQuiz {
+	padding: 0.75rem;
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	border: none;
+	border-radius: 0.25rem;
+	color: #7A4715;
+	background-color: #F5F1DE;
+}
+
+.result-section #startQuiz:focus {
+	outline: none;
+}
+
+.result-section #startQuiz:hover {
+	background-color: #FFD2A6;
+	cursor: pointer;
+}
 
 
 
