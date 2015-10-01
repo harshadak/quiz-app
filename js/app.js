@@ -111,7 +111,7 @@ $(document).ready(function(){
 				displayQuestion();
 			}
 		} else {
-			alert("Please select an answer");
+			alert("Please choose an option!");
 			return false;
 		}
 	});
