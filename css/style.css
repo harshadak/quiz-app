@@ -8,6 +8,7 @@ font-family: 'Josefin Slab', serif;
 	background: url("../images/friends.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: top center;
 	display: block;
 	width: 100%;
     height: 100%;
